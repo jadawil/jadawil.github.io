@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Basic Calculator</title>
+    <link rel="stylesheet" type="text/css" href="calculator.css"/>
+    <script type="text/javascript"  src="calculator.js"></script>
+  </head>
+  <body>
+    <div class="calc">
+    	<input id="calculation" readonly value="0"></input>
+    	<div class="row">
+	    	<button onclick="appendToCalculation(this)">7</button>
+	    	<button onclick="appendToCalculation(this)">8</button>
+	    	<button onclick="appendToCalculation(this)">9</button>
+	    	<button onclick="appendToCalculation(this)">/</button>
+	    	<button onclick="appendToCalculation(this)">√</button>
+    	</div>
+    	<div class="row">
+	    	<button onclick="appendToCalculation(this)">4</button>
+	    	<button onclick="appendToCalculation(this)">5</button>
+	    	<button onclick="appendToCalculation(this)">6</button>
+	    	<button onclick="appendToCalculation(this)">*</button>
+	    	<button onclick="appendToCalculation(this)">^</button>
+    	</div>
+    	<div class="row">
+	    	<button onclick="appendToCalculation(this)">1</button>
+	    	<button onclick="appendToCalculation(this)">2</button>
+	    	<button onclick="appendToCalculation(this)">3</button>
+	    	<button onclick="appendToCalculation(this)">-</button>
+	    	<button onclick="appendToCalculation(this)">%</button>
+    	</div>
+    	<div class="row">
+	    	<button onclick="appendToCalculation(this)">0</button>
+	    	<button onclick="appendToCalculation(this)">.</button>
+	    	<button onclick="caclulate()">=</button>
+	    	<button onclick="appendToCalculation(this)">+</button>
+	    	<button onclick="clearCalculation()">C</button>
+    	</div>
+    </div>	
+  </body>
+</html>
